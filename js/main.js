@@ -1,5 +1,5 @@
 $("#search").on("keyup change", function() {
-  var $input = $("#search").val.toUpperCase();
+  var $input = $("#search").val().toUpperCase();
   var $col=$(".gallery-item");
   var img;
   for(var i = 0; i < $col.length; i++ ) {
