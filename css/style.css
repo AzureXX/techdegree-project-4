@@ -33,6 +33,18 @@ body {
 
 .gallery-item {
   display: inline-block;
+  width: 40%;
+}
+
+}
+
+@media (min-width:1200px) {
+body {
+  width: 80%;
+}
+
+.gallery-item {
+  display: inline-block;
   width: 20%;
 }
 
